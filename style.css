@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'new';
+    src: url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bubblegum+Sans&display=swap");
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Baloo Bhaijaan 2', cursive;
+    color: white;
+}
+.header{
+position: relative;
+height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+.navbar {
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+ /* or adjust as needed */
+
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    opacity: 0.7; /* optional for better readability */
+}
+
+/* Keep your existing content styles */
+
+.navigation{
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    
+}
+.navigation a:hover{
+    color: #FBAF32;
+
+}
+.navigation li.active a {
+  color: #FBAF32 !important;
+}
+.order-button{
+    background-color: #FBAF32;
+    width: 190px;
+    height: 50px;
+    font-size: large;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.order-button:hover{
+    background-color: black;
+    border: 1px solid black;
+}
+.welcome-text{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 9rem;
+    line-height: 0.8;
+    font-weight: bolder;
+      
+}
+.welcome{
+    padding-left: 50px;
+    color: #ff9e01;
+}
+.aussie{
+    color: white;
+}
+.foods{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.foods img {
+    width: 500px;
+  position: relative;
+  z-index: 1;
+}
+.seperator{
+    width: 100%;
+    
+}
+.pc-r1, .pc-r2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+
+}
+.promo-cards img{
+    width: 90%;
+}
+.menu-order{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.menu-head{
+    font-size: 6rem;
+}
+.menu-butt{
+    font-size: xx-large;
+    display: inline;
+    background-color: #F0AE30;
+    color: black;
+    padding: 10px 35px;
+    border-radius: 10px;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+.menu-butt:hover {
+    background-color: white;
+    transition: ease-in-out 0.4s;
+}
+.menu-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 30px;
+}
+.m-item h2{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: -10px;
+    
+}
+.information{
+    display: flex;
+}
+.address{
+    width: 40%;
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.i-h{
+    color: #FBAF32;
+    font-size: x-large;
+    font-weight: bold;
+}
+.i-t{
+    font-size: larger;
+}
+.i-t2{
+    font-size: larger;
+    font-weight: bolder;
+}
+.map{
+    width: 60%;
+}
+.fb, .ig {
+    font-size: 1.5rem;
+    padding-right: 10px; /* Adjust as needed */
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
